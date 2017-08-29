@@ -1,0 +1,27 @@
+{
+    "version": "2.0.2",
+    "compilerOptions": {
+        "lib": [
+            "es5",
+            "es6",
+            "esnext.asynciterable"
+        ],
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "pretty": true,
+        "outDir": "dist"
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "client"
+    ],
+    "include": [
+        "**/*.ts",
+        "**/*.d.ts"
+    ]
+}
