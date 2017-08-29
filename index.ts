@@ -9,8 +9,6 @@ const login = process.env.login
 const password = process.env.password
 const token = generateToken(login, password)
 const tokenJpg = generateToken(login)
-// const token = '9wTytsnBX5g74v9CztFGpcyHmXjuneVN'
-// const tokenJpg = 'wouPXv6ZKW7gRA5CrFVsBUEx3ePSMM9o'
 
 const form = new FormData()
 form.append('login', login)
