@@ -1,15 +1,17 @@
-## Wysłać POST
-Na https://www.zut.edu.pl/app-json-proxy/index.php?f=getAuthorization
+# ZUT API
+
+## Send POST
+https://www.zut.edu.pl/app-json-proxy/index.php?f=getAuthorization
 
 - body:
     - login
     - password
     - token
-    - tokenJpg(niepotrzebne ?)
+    - tokenJpg(?)
 
-W celu rejestracji tokenu w systemie
+For register token in system
 
-## Następnie można wykorzystać funkcje:
+## Next:
 
 - https://www.zut.edu.pl/app-json-proxy/index.php?f=getMenuStudent
     - body:
