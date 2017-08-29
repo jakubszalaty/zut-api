@@ -1,18 +1,18 @@
 // tslint:disable:no-let
 import * as Moment from 'moment'
-
+// Magic code to generate token xD
 export function generateToken(str: string, str2?: string): string {
 
-    const str3: string = "d4Hb7BsxUDqaiBATQe7KuhvBQuh2T82j"
+    const str3 = 'd4Hb7BsxUDqaiBATQe7KuhvBQuh2T82j'
     try {
         const getRandom = (n) => Math.floor(Math.random() * n) + 1
         const stringBuffer: string[] = []
         let cArr: string[] = ['2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-        let cArr2: string[] = ['v', 'w', 'x', 'y', 'z', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'k', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'W', 'X', 'Y', 'Z', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V']
+        const cArr2: string[] = ['v', 'w', 'x', 'y', 'z', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'k', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'W', 'X', 'Y', 'Z', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V']
 
         const length: number = cArr.length
 
-        for (let i: number = 0; i < 32; i++) {
+        for (let i = 0; i < 32; i++) {
             stringBuffer.push(cArr[getRandom(length)])
         }
 
@@ -26,8 +26,8 @@ export function generateToken(str: string, str2?: string): string {
         const weekDay = date.weekday()
         const weekMonth = Math.ceil(date.date() / 7)
 
-        let str4: string = str + str2
-        let iArr: number[] = [str4.length - 1, str4.length - 5, str4.length - 8, monthDay, weekDay, weekMonth]
+        const str4: string = str + str2
+        const iArr: number[] = [str4.length - 1, str4.length - 5, str4.length - 8, monthDay, weekDay, weekMonth]
 
         if ((((((iArr[0] + iArr[1]) + iArr[2]) + iArr[3]) + iArr[4]) + iArr[5]) % 2 === 0) {
             iArr[0] = monthDay
@@ -38,10 +38,10 @@ export function generateToken(str: string, str2?: string): string {
             iArr[5] = weekMonth
             cArr = cArr2
         }
-        let str5: string = ""
-        for (let i2: number = 0; i2 < stringBuffer2.length; i2++) {
-            let substring: string = stringBuffer2.substring(i2, i2 + 1)
-            let stringBuffer3: string[] = []
+        let str5 = ''
+        for (let i2 = 0; i2 < stringBuffer2.length; i2++) {
+            const substring: string = stringBuffer2.substring(i2, i2 + 1)
+            const stringBuffer3: string[] = []
             if (iArr[0] === i2 && iArr[0] < 32) {
                 stringBuffer3.push(cArr[iArr[0]])
                 str5 = str5 + stringBuffer3.join('')
@@ -66,6 +66,6 @@ export function generateToken(str: string, str2?: string): string {
         }
         return str5
     } catch (e) {
-        return "p4Hb7BwxUDqaiBATQe7KRhvBQuh2TY2j"
+        return 'p4Hb7BwxUDqaiBATQe7KRhvBQuh2TY2j'
     }
 }

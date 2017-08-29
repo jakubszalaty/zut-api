@@ -1,6 +1,13 @@
 # ZUT API
 
+## TODO
+
+- [ ] web server based on graphql
+- [ ] REST
+- [ ] descriptions for methods
+
 ## Send POST
+
 https://www.zut.edu.pl/app-json-proxy/index.php?f=getAuthorization
 
 - body:
