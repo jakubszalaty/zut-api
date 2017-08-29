@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_weight="0.1" layout="0x7f040029" />
+    <RelativeLayout android:background="#fafafa" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.75"
+        <RelativeLayout android:id="0x7f0b007a" android:background="#d5dade" android:visibility="1" android:layout_width="-1" android:layout_height="0dp" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="0" android:background="0x106000d" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+                <Button android:textSize="15sp" android:textColor="0x7f0a001a" android:id="0x7f0b007b" android:background="#45bbf7" android:layout_width="0dp" android:layout_height="-1" android:text="0x7f060032" android:layout_weight="1.0" android:onClick="studyButtonAction" android:textAllCaps="false" style="@*style/ButtonBar" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ListView android:id="0x7f0b007c" android:background="#fafafa" android:layout_width="-1" android:layout_height="-2" android:divider="#dfdee1" android:dividerHeight="1dp" android:layout_below="0x7f0b007a" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

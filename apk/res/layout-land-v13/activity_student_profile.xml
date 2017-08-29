@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:background="0x7f020056" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.25">
+        <ImageView android:id="0x7f0b0088" android:layout_width="200dp" android:layout_height="200dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="0x7f060045" />
+        <TextView android:textSize="16sp" android:textColor="0x7f0a001a" android:id="0x7f0b0089" android:layout_width="-2" android:layout_height="-2" android:text="0x7f06011a" android:layout_below="0x7f0b0088" android:layout_centerHorizontal="true" />
+        <ImageButton android:background="0x106000d" android:layout_width="30dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:src="0x7f020061" android:scaleType="3" android:layout_centerVertical="true" android:onClick="backHomeActivity" android:contentDescription="0x7f060045" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.75"
+        <RelativeLayout android:id="0x7f0b007a" android:background="#d5dade" android:layout_width="-1" android:layout_height="60dp" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="0" android:background="0x106000d" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+                <Button android:textSize="15sp" android:textColor="0x7f0a001a" android:id="0x7f0b008a" android:background="#45bbf7" android:layout_width="0dp" android:layout_height="-1" android:text="0x7f0600f2" android:layout_weight="1.0" android:onClick="profileButtonAction" android:textAllCaps="false" style="@*style/ButtonBar" />
+                <Button android:textSize="15sp" android:textColor="#45bbf7" android:id="0x7f0b008b" android:background="0x7f0a001a" android:layout_width="0dp" android:layout_height="-1" android:text="0x7f0600ef" android:layout_weight="1.0" android:onClick="addressButtonClicked" android:textAllCaps="false" style="@*style/ButtonBar" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ListView android:id="0x7f0b008c" android:background="#fafafa" android:layout_width="-1" android:layout_height="-2" android:divider="#dfdee1" android:dividerHeight="1dp" android:layout_below="0x7f0b007a" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ListView android:id="0x7f0b008d" android:background="#fafafa" android:layout_width="-1" android:layout_height="-2" android:divider="#dfdee1" android:dividerHeight="1dp" android:layout_below="0x7f0b007a" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

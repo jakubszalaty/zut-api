@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item app:state_enabled="false" app:color="?unknown_attr_ref: 7f01007f" app:alpha="?unknown_attr_ref: 1010033" />
+    <item app:state_focused="true" app:color="?unknown_attr_ref: 7f010080" />
+    <item app:state_pressed="true" app:color="?unknown_attr_ref: 7f010080" />
+    <item app:color="?unknown_attr_ref: 7f010080" />
+    <item app:state_selected="true" app:color="?unknown_attr_ref: 7f010080" />
+    <item app:state_checked="true" app:color="?unknown_attr_ref: 7f010080" />
+    <item app:color="?unknown_attr_ref: 7f01007f" />
+</selector>

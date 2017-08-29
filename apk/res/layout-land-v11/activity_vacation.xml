@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_weight="0.1" layout="0x7f040029" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.3">
+        <ListView android:id="0x7f0b0097" android:background="#fafafa" android:layout_width="-2" android:layout_height="-2" android:divider="0x1060000" android:dividerHeight="1dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.5">
+        <LinearLayout android:orientation="0" android:id="0x7f0b0098" android:background="0x7f0a0019" android:layout_width="-1" android:layout_height="60dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <Spinner android:id="0x7f0b005f" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="0.25" android:spinnerMode="0" />
+        </LinearLayout>
+        <ListView android:id="0x7f0b0099" android:background="#fafafa" android:layout_width="-2" android:layout_height="-2" android:divider="0x1060000" android:dividerHeight="1dp" android:layout_below="0x7f0b0098" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

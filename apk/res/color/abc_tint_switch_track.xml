@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item app:state_enabled="false" app:color="?unknown_attr_ref: 1010030" app:alpha="0.1" />
+    <item app:state_checked="true" app:color="?unknown_attr_ref: 7f010080" app:alpha="0.3" />
+    <item app:color="?unknown_attr_ref: 1010030" app:alpha="0.3" />
+</selector>

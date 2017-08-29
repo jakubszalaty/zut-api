@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_weight="0.1" layout="0x7f040029" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.8">
+        <LinearLayout android:orientation="0" android:id="0x7f0b0057" android:background="0x7f0a0019" android:layout_width="-1" android:layout_height="60dp">
+            <Spinner android:id="0x7f0b0058" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
+            <RelativeLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <Button android:textSize="14sp" android:background="#2d95b8" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="Ustaw wszyskim" android:layout_centerVertical="true" android:onClick="viewButtonAction" />
+                <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" /> />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f0b0059" android:background="#e7e7ef" android:layout_width="-1" android:layout_height="40dp" android:divider="0x1060000" android:dividerHeight="1dp" android:layout_below="0x7f0b0057">
+            <TextView android:textSize="16sp" android:textColor="#000000" android:gravity="10" android:id="0x7f0b005a" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="10dp" android:text="0x7f0600d3" android:layout_weight="0.15" />
+            <TextView android:textSize="16sp" android:textColor="#000000" android:gravity="10" android:id="0x7f0b005b" android:layout_width="0dp" android:layout_height="-1" android:text="0x7f0600d3" android:layout_weight="0.45" />
+            <TextView android:visibility="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="0.4" />
+        </LinearLayout>
+        <ListView android:id="0x7f0b005c" android:layout_width="-2" android:layout_height="1dp" android:divider="0x1060000" android:dividerHeight="1dp" android:layout_below="0x7f0b0059" />
+        <ListView android:id="0x7f0b005d" android:background="#fafafa" android:layout_width="-2" android:layout_height="-2" android:divider="0x1060000" android:dividerHeight="1dp" android:layout_below="0x7f0b005c" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

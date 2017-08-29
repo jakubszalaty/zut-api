@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout app:id="0x7f0b0061" app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:background="0x7f020056" app:layout_width="-1" app:layout_height="-1">
+        <RelativeLayout app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0">
+            <ImageView app:id="0x7f0b0062" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="20dp" app:src="0x7f020063" app:layout_centerHorizontal="true" />
+            <TextView app:textSize="18sp" app:textColor="#000000" app:id="0x7f0b0063" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="20dp" app:text="0x7f06011e" app:layout_centerHorizontal="true" />
+            <TextView app:textSize="22sp" app:textColor="#000000" app:id="0x7f0b0064" app:layout_width="-2" app:layout_height="-2" app:text="0x7f06011a" app:layout_below="0x7f0b0063" app:layout_centerHorizontal="true" />
+            <ImageButton app:background="0x106000d" app:layout_width="30dp" app:layout_height="20dp" app:layout_marginLeft="15dp" app:src="0x7f020068" app:scaleType="3" app:layout_alignTop="0x7f0b0063" app:onClick="showMenuAction" app:contentDescription="0x7f060045" app:layout_marginStart="15dp" />
+        </RelativeLayout>
+        <LinearLayout app:orientation="1" app:background="0x7f02006f" app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0"
+            <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="0dp" app:baselineAligned="false" app:layout_weight="1.0">
+                <RelativeLayout app:layout_width="0dp" app:layout_height="-1" app:layout_weight="1.0">
+                    <ImageView app:id="0x7f0b0065" app:layout_width="60dp" app:layout_height="60dp" app:layout_marginTop="30dp" app:src="0x7f020075" app:layout_centerHorizontal="true" app:onClick="openStudentsWeb" app:contentDescription="0x7f060045" />
+                    <TextView app:textSize="12sp" app:textColor="#ffffff" app:id="0x7f0b0066" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="10dp" app:text="0x7f060113" app:layout_below="0x7f0b0065" app:layout_centerHorizontal="true" app:onClick="openStudentsWeb" app:textAlignment="4" />
+                </RelativeLayout>
+                <RelativeLayout app:layout_width="0dp" app:layout_height="-1" app:layout_weight="1.0">
+                    <ImageView app:id="0x7f0b0067" app:layout_width="60dp" app:layout_height="60dp" app:layout_marginTop="30dp" app:src="0x7f020079" app:layout_centerHorizontal="true" app:onClick="openCandicatesWeb" app:contentDescription="0x7f060045" />
+                    <TextView app:textSize="12sp" app:textColor="#ffffff" app:id="0x7f0b0068" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="10dp" app:text="0x7f060114" app:layout_below="0x7f0b0067" app:layout_centerHorizontal="true" app:onClick="openCandicatesWeb" app:textAlignment="4" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="0dp" app:baselineAligned="false" app:layout_weight="1.0">
+                <RelativeLayout app:layout_width="0dp" app:layout_height="-1" app:layout_weight="1.0">
+                    <ImageView app:id="0x7f0b0069" app:layout_width="60dp" app:layout_height="60dp" app:layout_marginTop="15dp" app:src="0x7f020070" app:layout_centerHorizontal="true" app:onClick="openTeachersWeb" app:contentDescription="0x7f060045" />
+                    <TextView app:textSize="16sp" app:textColor="#ffffff" app:id="0x7f0b006a" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="10dp" app:text="0x7f06002c" app:layout_below="0x7f0b0069" app:layout_centerHorizontal="true" app:onClick="openTeachersWeb" app:textAlignment="4" />
+                </RelativeLayout>
+                <RelativeLayout app:layout_width="0dp" app:layout_height="-1" app:layout_weight="1.0">
+                    <ImageView app:id="0x7f0b006b" app:layout_width="60dp" app:layout_height="60dp" app:layout_marginTop="15dp" app:src="0x7f020065" app:layout_centerHorizontal="true" app:onClick="logInAction" app:contentDescription="0x7f060045" />
+                    <TextView app:textSize="16sp" app:textColor="#ffffff" app:id="0x7f0b006c" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="10dp" app:text="0x7f060050" app:layout_below="0x7f0b006b" app:layout_centerHorizontal="true" app:onClick="logInAction" app:textAlignment="4" />
+                    <ImageView app:id="0x7f0b006d" app:layout_width="60dp" app:layout_height="60dp" app:layout_marginTop="15dp" app:src="0x7f020067" app:layout_centerHorizontal="true" app:onClick="logOutAction" app:contentDescription="0x7f060045" />
+                    <TextView app:textSize="16sp" app:textColor="#ffffff" app:id="0x7f0b006e" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="10dp" app:text="0x7f060051" app:layout_below="0x7f0b006d" app:layout_centerHorizontal="true" app:onClick="logOutAction" app:textAlignment="4" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ExpandableListView app:layout_gravity="800003" app:id="0x7f0b006f" app:background="#195269" app:layout_width="240dp" app:layout_height="-1" app:groupIndicator="@c0474j/View_android_theme" app:divider="#2c637d" app:dividerHeight="1dp" app:choiceMode="1" />
+</android.support.v4.widget.DrawerLayout>

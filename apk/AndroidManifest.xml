@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="6" android:versionName="1.2" package="pl.edu.zut.mobile" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="24" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:theme="0x7f08008e" android:label="0x7f06002b" android:icon="0x7f030002" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:name="pl.edu.zut.mobile.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.LoginActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.StudentProfileActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.StudentStudiesActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.AttendanceActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.StudentAccountingActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.ClassRoutineActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.SearchActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.StudentNoticesActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.StudentGradesActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.WebActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.UserProfileActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.NoticeActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.VacationsActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.NewsActivity" />
+        <activity android:label="0x7f06002b" android:name="pl.edu.zut.mobile.NewsDetailsActivity" />
+    </application>
+</manifest>

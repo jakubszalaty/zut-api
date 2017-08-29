@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="35dp">
+    <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="0x7f0b00af" android:layout_width="-2" android:layout_height="-2" android:text="0x7f0600d3" android:layout_centerInParent="true" />
+</RelativeLayout>
